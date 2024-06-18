@@ -1,0 +1,61 @@
+body{
+height: 100vh;
+
+}
+
+
+.alles {
+ 
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav{
+  height: 15px
+}
+
+.tekstje {
+  margin: 0 auto; /* Centreert de container horizontaal */
+  border: 10px solid;
+  border-radius: 50px;
+  margin-left: 55px;
+  margin-top: 200px;
+  
+  border-color: rgba(8, 6, 6, 0.048);
+  box-shadow: 1px 10px 10px black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center; /* Zorgt ervoor dat de tekst in het midden van de container wordt gecentreerd */
+  padding: 20px; /* Zorgt ervoor dat het de volledige hoogte van de parent container inneemt */ 
+  
+}
+
+.tekstje p {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center; /* Centreert de tekst binnen de p-tag */
+}
+
+
+
+.verborgen {
+  display: none;
+}
+
+.onzichtbaar {
+  display: none;
+}
+
+.startknop:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+

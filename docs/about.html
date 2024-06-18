@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="shortcut icon" href="images/image.png" type="image/x-icon">
+    <title>Klerenshop</title>
+</head>
+<body>
+    <header>
+        <h1>About</h1>
+        <div id="hamburger-menu" onClick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    <nav>
+        <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over Ons</a></li>
+                <li><a href="shop.html">Shoppen</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+    <div class="alles">
+        <div id="doorschijnend" class="labels">
+            <!-- Deze codeblok zorgt voor de checklist en de bulletpoint -->
+            <label class="formTitle">Kies uw kledingstuk: </label><br>
+            <input type="checkbox" name="kledingstuk" id="combo1" value="Tshirt" checked>
+            <label for="combo1">Tshirt</label><br>
+            <input type="checkbox" name="kledingstuk" id="combo2" value="Hoodie" checked>
+            <label for="combo2">Hoodie</label><br>
+
+            <!-- Deze code zorgt ervoor dat je een naam kan ingeven in een balk -->
+            <div>
+                <label class="formTitle">Uw naam:</label><br>
+                <input type="text" id="naamTextfield" placeholder="Voer uw naam in">
+            </div>
+            <br>
+
+            <!-- Zorgt voor een knop dat je doorstuurt naar het verhaal -->
+            <div class="startknop"> 
+                <a href="#" id="toonVerhaal">Klik hier</a>
+            </div>
+
+            <!-- Zorgt ervoor dat de naam of woord dat je ingeeft wordt opgeslagen in uw tekst. -->
+            <form id="formulier" class="frame"></form>
+        </div>
+    </div>
+
+    <div id="transparant" class="onzichtbaar">
+        <div class="tekstje">
+            <div id="verhaal" class="verborgen">
+                <p>
+                    Welkom <span id="name"></span><br>
+                    We zijn een bedrijf dat kleren verkoopt, we verkopen <span id="chosenBox"></span>, binnenkort zijn we ook van plan om ons assortiment uit te breiden. 
+                    We bieden nu gepersonaliseerde hoodies en t-shirts aan. We hebben nu <span id="number">1</span> stuks in voorraad, bestel snel voor ze uitverkocht zijn!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Created by Yassine Bibi</p>
+    </footer>
+
+    <script src="overons.js"></script>
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
